@@ -8,9 +8,9 @@ def home():
     return "Hello World! Staging!"
 
 
-# @app.route('/<name>')
-# def home_name(name):
-#     return "Hello World! And hello to you too, {}!".format(name)
+@app.route('/fancy_feature/<name>')
+def home_name(name):
+    return "Hello World! And hello to you too, {}!".format(name)
 
 
 if __name__ == "__main__":
