@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello World! Production!"
+    return "Hello World! Staging!"
 
 
 # @app.route('/<name>')
