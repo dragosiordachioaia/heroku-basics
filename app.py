@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello World! Staging!"
+    return "Hello World! This is dev!"
 
 
 @app.route('/fancy_feature/<name>')
